@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Nombre de place</th>
+        <th>category</th>
+    </tr>
+    <tr *ngFor="let e of listEvents">
+        <td>{{e.name}}</td>
+        <td>{{e.price}}</td>
+        <td>{{e.nbParticipant}}</td>
+        <td>{{e.category}}</td>
+        <td><button>Delete event</button></td>
+    </tr>
+</table>

@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": "6e19",
+      "name": "event 1",
+      "nbParticipant": "100",
+      "price": "",
+      "category": ""
+    },
+    {
+      "id": "e632",
+      "name": "event 2",
+      "nbParticipant": "120",
+      "price": "",
+      "category": ""
+    },
+    {
+      "id": "4962",
+      "name": "aaaaa",
+      "nbParticipant": "1000",
+      "price": "",
+      "category": ""
+    },
+    {
+      "id": "081d",
+      "name": "Event 3",
+      "nbParticipant": "7",
+      "price": "",
+      "category": ""
+    },
+    {
+      "id": "38cf",
+      "name": "tt",
+      "nbParticipant": "10",
+      "price": 0,
+      "category": ""
+    }
+  ]
+}

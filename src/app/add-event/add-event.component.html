@@ -1,0 +1,19 @@
+<form [formGroup]="AddEvent">
+    Name <br>
+    <input formControlName ="name"/><br>
+
+    Nombre de participant  <br>
+    <input formControlName ="nbParticipant"/><br>
+    
+        <div *ngIf="nbParticipant!.errors!['max']">nombre de participant max doit etre = 1000</div>
+
+    price  <br>
+    <input  formControlName ="price"/><br>
+    
+        <div *ngIf="price!.errors!['min']">Le prix doit etre positif</div>
+
+    category <br>
+    <input formControlName ="category"/> <br>
+  
+    <input type = "submit" value="Add Event" (click)="AEvent()" >
+</form> 
